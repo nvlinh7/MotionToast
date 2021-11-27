@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch_custom_colors"
+            android:layout_width="200dp"
+            android:text="Custom toast colors"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/successBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:fontFamily="@font/helveticabold"/>
+        <Button
+            android:id="@+id/errorBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Error"
+            android:fontFamily="@font/helveticabold"/>
+
+        <Button
+            android:id="@+id/warningBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Warning"
+            android:fontFamily="@font/helveticabold"/>
+        <Button
+            android:id="@+id/infoBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:fontFamily="@font/helveticabold"/>
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:fontFamily="@font/helveticabold"/>
+
+        <Button
+            android:id="@+id/noInternetBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helveticabold"
+            android:text="No Internet" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
